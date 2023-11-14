@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" defer></script>
+    <title>Exercicio 13</title>
+</head>
+
+<body>
+    <section>
+        <h1># Jogo da Velha #</h1>
+        <div class="players">
+            <label for="player1">Jogador 1 (X):</label>
+            <input type="text" id="player1">
+            <label for="player2">Jogador 2 (O):</label>
+            <input type="text" id="player2">
+            <button type="button" id="startButton">Começar Partida</button>
+        </div>
+    </section>
+    <section>
+        <p id="currentTextPlayer"></p>
+        <table>
+            <tbody>
+                <tr>
+                    <td id="A1" class="buttons cursor-pointer">""</td>
+                    <td id="A2" class="buttons cursor-pointer">""</td>
+                    <td id="A3" class="buttons cursor-pointer">""</td>
+                </tr>
+                <tr>
+                    <td id="B1" class="buttons cursor-pointer">""</td>
+                    <td id="B2" class="buttons cursor-pointer">""</td>
+                    <td id="B3" class="buttons cursor-pointer">""</td>
+                </tr>
+                <tr>
+                    <td id="C1" class="buttons cursor-pointer">""</td>
+                    <td id="C2" class="buttons cursor-pointer">""</td>
+                    <td id="C3" class="buttons cursor-pointer">""</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/register.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Rubik&display=swap" rel="stylesheet">
+    <title>Cadastro de Recrutas</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Recrutas</h1>
+        <nav>
+            <a id="nav-color" href="./pages/calculator.html">| Calculadora de 4 operações</a>
+        </nav>
+    </header>
+    <hr>
+    <section>
+        <form id="formData">
+            <div class="form">
+                <div class="name">
+                    <label for="name">Nome:</label>
+                    <input type="text" name="name" id="name" placeholder="Escreva o seu nome" required>
+                    <label for="surname">Sobrenome:</label>
+                    <input type="text" name="surname" id="surname" placeholder="Escreva o seu sobrenome" required>
+                </div>
+                <div class="date">
+                    <label for="date">Data de Nascimento:</label>
+                    <input type="date" name="date" id="date" required>
+                </div>
+                <div class="study_area">
+                    <label for="study_area">Campo de Estudo:</label>
+                    <input type="text" name="study_area" id="study_area" placeholder="Seu estudo" required>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Cadastrar">
+                </div>
+            </div>
+        </form>
+    </section>
+    <section>
+        <table>
+            <thead>
+                <caption>Dados do Recruta</caption>
+                <tr>
+                    <th>Nome dos Dados</th>
+                    <th>Dados recebido</th>
+                </tr>
+                <tr>
+                    <td>Nome</td>
+                    <td id="receiveName"></td>
+                </tr>
+                <tr>
+                    <td>Sobrenome</td>
+                    <td id="receiveSurname"></td>
+                </tr>
+                <tr>
+                    <td>Idade</td>
+                    <td id="receiveAge"></td>
+                </tr>
+                <tr>
+                    <td>Campo de Estudo</td>
+                    <td id="receiveStudy"></td>
+                </tr>
+            </thead>
+        </table>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="./src/javaScript/register.js"></script>
+</body>
+</html>

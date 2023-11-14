@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <script src="./index.js" type="module" defer></script>
+    <title>Finanças Pessoais</title>
+</head>
+
+<body>
+    <main>
+        <section class="values">
+            <div class="received">
+                <h2>Recebido</h2>
+                <hr>
+                <div>
+                    <p id="receivedValue">$0</p>
+                    <img src="./imgs/banco.png" alt="">
+                </div>
+            </div>
+            <div class="sent">
+                <h2>Enviado</h2>
+                <hr>
+                <div>
+                    <p id="sentValue">$0</p>
+                    <img src="./imgs/transferencia-de-dinheiro.png" alt="">
+                </div>
+            </div>
+            <div class="total">
+                <h2>Total</h2>
+                <hr>
+                <div>
+                    <p id="totalValue">$0</p>
+                    <img src="./imgs//custo.png" alt="">
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <section class="inputs">
+                <h1>Finanças Pessoais</h1>
+                <form>
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" required autocomplete="off">
+                    <label for="type">Tipo</label>
+                    <select name="type" id="type" required class="selectTypes">
+                        <option selected disabled hidden>Selecione o Tipo</option>
+                        <option value="sent">Enviado</option>
+                        <option value="received">Recebido</option>
+                    </select>
+                    <label for="value">Valor</label>
+                    <input type="number" name="value" id="value" required autocomplete="off" min="1" max="999999">
+                    <input type="submit" value="Adicionar" class="button">
+                </form>
+            </section>
+            <section class="transations">
+                <h2 class="textOperation">Histórico de Transações</h2>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h3>Cadastro Liga dos Astronautas</h3>
+    <form action="">
+     <p>Nome: <input type="text" required></p>
+     <p>Email: <input type="email" required> - Senha: <input type="password" required></p>
+     <p>Data de Nascimento: <input type="date" required> - Foto: <input type="file" name="Foto" id="Foto"></p>
+     <p>Nascionalidade: <input list="nascionalidade" required> - Genêros: 
+        <input type="radio" name="genero" id="Masculino" required>
+        <label for="Masculino">Masculino</label>
+        <input type="radio" name="genero" id="Feminino" required>
+        <label for="Feminino">Feminino</label></p>
+     <p>Suas principais qualidades:
+        <br>
+        <input type="checkbox" name="qualidades" id="inteligencia">
+        <label for="inteligencia">Inteligencia |</label>
+        <input type="checkbox" name="qualidades" id="resiliencia">
+        <label for="resiliencia">Resiliência |</label>
+        <input type="checkbox" name="qualidades" id="preparofisico">
+        <label for="preparofisico">Preparo Físico |</label>
+        <input type="checkbox" name="qualidades" id="educação">
+        <label for="educação">Educação</label>
+     </p>
+     <p><textarea name="motivo" id="motivo" cols="60" rows="10" placeholder="Porque você gostaria de ser um astronauta?" required></textarea></p>
+     <p><input type="submit" value="Cadastrar"></p>
+     
+     <datalist id="nascionalidade">
+        <option value="Brasileiro"></option>
+        <option value="Russo"></option>
+        <option value="Chinês"></option>
+        <option value="Norte Americano"></option>
+     </datalist>
+
+    </form>
+
+</body>
+</html>

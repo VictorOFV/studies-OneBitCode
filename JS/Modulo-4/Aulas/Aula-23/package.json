@@ -1,0 +1,15 @@
+{
+  "name": "trabalhando-com-npm",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Meu primeiro projeto com NODE e NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Victor Manoel Lopes Porto",
+  "license": "ISC",
+  "dependencies": {
+    "mal-scraper": "^2.13.1"
+  }
+}

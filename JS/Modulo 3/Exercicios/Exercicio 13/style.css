@@ -1,0 +1,53 @@
+td{
+    font-size: 80px;
+    border: 6px white solid;
+    padding: 30px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+table{
+    margin: 50px auto 0 auto;
+    border: 4px white solid;
+    padding: 5px;
+}
+
+.players{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+body{
+    background-color: #212529;
+    color: white;
+}
+
+#currentTextPlayer{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.nameTextGreen{
+    color: #a7f731;
+}
+
+.nameTextRed{
+    color: #f30f0f;
+}
+
+.drawn{
+    color: #ff12b4;
+}

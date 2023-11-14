@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+form {
+    width: 300px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+form div textarea {
+    height: 150px;
+    resize: none;
+}
+
+main {
+    display: flex;
+    gap: 20rem;
+    font-size: 25px;
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+
+.articles {
+    width: 800px;
+}
+
+.articles h1 {
+    text-align: center;
+}
+
+.article-container {
+    background-color: rgba(33, 33, 33, 0.351);
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.title-article {
+    font-size: 35px;
+    text-align: center;
+}
+
+.content-article {
+    margin-top: 7px;
+}
+
+.author-article {
+
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: end;
+}

@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "kanit";
+}
+
+body {
+    background-color: #006bae;
+    color: white;
+}
+
+.values {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: center;
+}
+
+.values img {
+    width: 150px;
+}
+
+.received {
+    background-color: rgb(55 157 55);
+}
+
+.sent {
+    background-color: rgb(191 13 13);
+}
+
+.total {
+    background-color: rgb(49 49 216);
+}
+
+.received, .sent, .total {
+    text-align: center;
+    margin-top: 25px;
+    border-radius: 15px;
+    font-size: 25px;
+    border: 5px solid black;
+    padding: 12px;
+    padding-bottom: 30px;
+    width: 300px;
+}
+
+.received div, .sent div, .total div {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: end;
+    font-size: 30px;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.received img, .sent img, .total img {
+    width: 80px;
+    position: absolute;
+    margin-right: 215px;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.inputs form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.inputs form input, .selectTypes {
+    height: 40px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    border-radius: 10px;
+    text-align: center;
+    border: 0px;
+    outline: none;
+
+}
+
+.inputs form label {
+    font-size: 30px;
+}
+
+.inputs {
+    width: 500px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.302);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    border-radius: 10px;
+    flex-direction: column;
+    font-size: 25px;
+    gap: 60px;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #006bae;
+    color: white;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.transations {
+    width: 900px;
+    height: 600px;
+    margin: 25px;
+    background-color: rgba(0, 0, 0, 0.302);
+    border-radius: 10px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textOperation {
+    text-align: center;
+    font-size: 37.5px;
+    margin-bottom: 10px;
+}
+
+.transations .info {
+    background-color: rgba(0, 0, 0, 0.248);
+    width: 90%;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.transations .info h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 17px;
+}
+
+.transations .info p {
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.divButtons {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.divButtons button, .inputsEdit button {
+    padding: 5px;
+    cursor: pointer;
+    width: 59px;
+    border-radius: 5px;
+    border: 0px;
+    text-align: center;
+}
+
+.divButtons button:hover, .inputsEdit button:hover {
+    background-color: #006bae;
+    color: white;
+}
+
+select {
+    cursor: pointer;
+}
+
+.inputsEdit input, .inputsEdit select {
+    border: 0px;
+    outline: none;
+    height: 25px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.inputsEdit label {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.inputsEdit {
+    margin-top: 25px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.8s ease-in-out; /* Defina a duração, temporização e nome da animação conforme necessário */
+}
+
+.green-text {
+    color: rgb(55 157 55)
+}
+
+.red-text {
+    color: rgb(191 13 13);
+}

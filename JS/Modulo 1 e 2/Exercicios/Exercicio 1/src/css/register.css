@@ -1,0 +1,86 @@
+body{
+    background-color: #f7a4a4;
+}
+
+h1{
+    font-family: 'Rubik';
+    margin-bottom: 0px;
+}
+
+header{
+    display: flex;
+}
+
+nav{
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+#nav-color{
+    color: white;
+    margin-top: 35px;
+}
+
+.form{
+    font-family: 'Arimo';
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    border-radius: 20px;
+    width: 40%;
+    height: 100%;
+}
+
+.name{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.date{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.study_area{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.submit{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+table{
+    margin-top: 60px;
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+table th{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+
+table td{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+table caption{
+    font-family: 'Rubik';
+    font-size: 20px;
+}
+
+td + td{
+    color: #1200ff;
+}

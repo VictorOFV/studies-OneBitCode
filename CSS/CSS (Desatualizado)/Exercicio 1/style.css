@@ -1,0 +1,23 @@
+h1{
+    color: red;
+    background-color: black;
+    text-align: right;
+}
+
+body{
+    background-color: black;
+}
+
+section{
+    color: white;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/calculator.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Rubik&display=swap" rel="stylesheet">
+    <title>Calculadora de 4 operações</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de 4 operações</h1>
+        <nav>
+            <a id="nav-color" href="../register.html">| Cadastro de Recrutas</a>
+        </nav>
+    </header>
+    <hr>
+    <section>
+        <form id="calculatorForm">
+            <div class="values">
+                <label for="number1">Valor 1:</label>
+                <input type="number" name="number1" id="number1" placeholder="40" required>
+                <label for="number2">Valor 2:</label>
+                <input type="number" name="number2" id="number2" placeholder="20" required>
+            </div>
+            <div>
+                <input type="submit" value="Calcular" id="buttom">
+            </div>
+        </form>
+    </section>
+    <section>
+        <table>
+            <thead>
+                <caption>Calculadora</caption>
+                <tr>
+                    <th>Valor 1</th>
+                    <th>Operador</th>
+                    <th>Valor 2</th>
+                    <th>Resultado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="value1"></td>
+                    <td id="operator">+</td>
+                    <td id="value2"></td>
+                    <td id="resultSome"></td>
+                </tr>
+                <tr>
+                    <td id="value1"></td>
+                    <td id="operator">-</td>
+                    <td id="value2"></td>
+                    <td id="resultSubtraction"></td>
+                </tr>
+                <tr>
+                    <td id="value1"></td>
+                    <td id="operator">*</td>
+                    <td id="value2"></td>
+                    <td id="resultMultiplication"></td>
+                </tr>
+                <tr>
+                    <td id="value1"></td>
+                    <td id="operator">/</td>
+                    <td id="value2"></td>
+                    <td id="resultDivision"></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <script src="../src/javaScript/calculator.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/damageCalculation.css">
+    <title>Cálculo de Dano</title>
+</head>
+<body>
+    <header>
+        <h1>Cálculo de Dano</h1>
+        <nav>
+            <a id="nav-color" href="./speedTest.html">| Teste de Velocidade</a>
+        </nav>
+    </header>
+    <hr>
+    <section>
+        <form id="formCharacter">
+            <fieldset>
+                <legend>Cálculo de Dano</legend>
+                <h3>Personagem 1:</h3>
+                <div class="characte1">
+                    <label for="characte1Name">Nome do Personagem:</label>
+                    <input type="text" name="characte1Name" id="characte1Name" required placeholder="Naruto Uzumaki">
+                    <label for="attackPower">- Poder de Ataque:</label>
+                    <input type="number" name="attackPower" id="attackPower" required placeholder="99" min="1" max="999">
+                </div>
+                <h3>Personagem 2:</h3>
+                <div class="characte2">
+                    <label for="characte2Name">Nome do Personagem:</label>
+                    <input type="text" name="characte2Name" id="characte2Name" required placeholder="Momonga-Sama">
+                    <label for="defensePower">- Poder de Defesa:</label>
+                    <input type="number" name="defensePower" id="defensePower" required placeholder="80" min="1" max="999">
+                    <div class="select-option">
+                        <label for="life">Quantidade de Vida:</label>
+                        <input type="number" name="life" id="life" required placeholder="70" min="1" max="999">
+                        <label for="hasShield">- Tem Escudo?</label>
+                        <select name="hasShield" id="hasShield">
+                            <option value="true">Sim</option>
+                            <option value="false">Não</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <input id="buttom" type="submit" value="Calcular Dano">
+                </div>
+                <div class="result-container">
+                    <p id="text-result"></p>
+                    <p id="result"></p>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    <script src="./javascript/damageCalculation.js"></script>
+</body>
+</html>

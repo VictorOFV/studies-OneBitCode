@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" defer></script>
+    <title>Projeto Pratico Guiado 1</title>
+</head>
+<body>
+    <main data-theme="darkMode">
+        <header class="flexx aling-center justify-between">
+            <h1>Calculadora.js</h1>
+            <button type="button" id="themeSwitch">White Mode</button>
+        </header>
+        <section>
+            <input type="text" id="input">
+            <div id="keys">
+                <button type="button" id="clear">C</button>
+                <button class="charKey" type="button" data-value=" ( ">(</button>
+                <button class="charKey" type="button" data-value=" ) ">)</button>
+                <button class="charKey" type="button" data-value=" / ">/</button>
+                <button class="charKey" type="button" data-value="7">7</button>
+                <button class="charKey" type="button" data-value="8">8</button>
+                <button class="charKey" type="button" data-value="9">9</button>
+                <button class="charKey" type="button" data-value=" * ">*</button>
+                <button class="charKey" type="button" data-value="4">4</button>
+                <button class="charKey" type="button" data-value="5">5</button>
+                <button class="charKey" type="button" data-value="6">6</button>
+                <button class="charKey" type="button" data-value=" - ">-</button>
+                <button class="charKey" type="button" data-value="1">1</button>
+                <button class="charKey" type="button" data-value="2">2</button>
+                <button class="charKey" type="button" data-value="3">3</button>
+                <button class="charKey" type="button" data-value=" + ">+</button>
+                <button class="charKey" type="button" data-value="0">0</button>
+                <button class="charKey" type="button" data-value=".">.</button>
+                <button class="charKey" type="button" data-value=" % ">mod</button>
+                <button type="button" id="equal"> = </button>
+            </div>
+        </section>
+        <section class="flex aling-center justify-between">
+            <button type="button" id="copyToClipboard">Copiar</button>
+            <input type="text" id="result" disabled>
+        </section>
+    </main>
+</body>
+</html>

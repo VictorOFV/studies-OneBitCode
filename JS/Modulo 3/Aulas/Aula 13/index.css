@@ -1,0 +1,9 @@
+.isLightTheme{
+    color: black;
+    background-color: white;
+}
+
+.isDarkTheme{
+    color: white;
+    background-color: black;
+}

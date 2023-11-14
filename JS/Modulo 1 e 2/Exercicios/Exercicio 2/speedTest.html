@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/speedTest.css">
+    <title>Teste de Velocidade</title>
+</head>
+<body>
+    <header>
+        <h1>Teste de Velocidade</h1>
+        <nav>
+            <a id="nav-color" href="./damageCalculation.html">| Calculo de Dano</a>
+        </nav>
+    </header>
+    <hr>
+    <section>
+        <form id="speedTestForm">
+            <fieldset>
+                <legend>Teste de Velocidade</legend>
+                <div class="car1">
+                    <label for="car1Name">Nome do Carro 1:</label>
+                    <input type="text" id="car1Name" name="car1Name" placeholder="Ford Mustang" required>
+                    <label for="car1Speed">Velocidade do Carro 1:</label>
+                    <input type="number" name="car1Speed" id="car1Speed" placeholder="70" required min="1" max="530"> Km/h
+                </div>
+                <div class="car2">
+                    <label for="car2Name">Nome do Carro 2:</label>
+                    <input type="text" id="car2Name" name="car2Name" placeholder="Nissan GTR R34" required>
+                    <label for="car2Speed">Velocidade do Carro 2:</label>
+                    <input type="number" name="car2Speed" id="car2Speed" placeholder="90" required min="1" max="530"> Km/h
+                </div>
+                <div>
+                    <input type="submit" value="Calcular" id="buttom">
+                </div>
+                <div id="result-container">
+                    <p id="result-name"></p>
+                    <p id="result"></p>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    <script src="./javascript/speedTest.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+</head>
+<body>
+    <main>
+        <h1>Formulário de Inscrição</h1>
+        <div>
+            <form action="">
+                <div>
+                    <label for="name">Nome:</label>
+                    <br>
+                    <input type="text" name="name" id="name" placeholder="Ex: Victor Manoel" required>
+                </div>
+                <br>
+                <div>
+                     <label for="email">Email:</label>
+                     <br>
+                     <input type="email" name="email" id="email" placeholder="Ex: example@gmail.com" required>
+                </div>
+                <br>
+                <div>
+                    <label for="whatsapp">Whatsapp:</label>
+                    <br>
+                    <input type="tel" name="whatsapp" id="whatsapp" placeholder="Ex: (69) 9 9298-5495" required>
+                </div>
+                <br>
+                <div>
+                    <label>Aréa de Atuação:</label>
+                    <br>
+                    <input type="radio" name="occupation" id="development" value="Desenvolvimento">
+                    <label for="development">Desenvolvimento</label>
+                    <input type="radio" name="occupation" id="quality" value="Quality Assurance (QA)">
+                    <label for="quality">Quality Assurance (QA)</label>
+                    <input type="radio" name="occupation" id="analysis" value="Análise de Dados">
+                    <label for="analysis">Análise de Dados</label>
+                    <input type="radio" name="occupation" id="Infrastructure" value="Infraestrutura">
+                    <label for="Infrastructure">Infraestrutura</label>
+                </div>
+                <br>
+                <div>
+                    <label for="observation">Observações:</label>
+                    <br>
+                    <textarea style="resize: none;" name="observation" id="observation" cols="40" rows="5" placeholder="Ex: Formado na Academia de Programadores do Brasil"></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" name="offerEmail" id="offerEmail">
+                    <label for="offerEmail">Desejo receber novidades e ofertas por email.</label>
+                </div>
+                <br>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

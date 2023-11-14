@@ -1,0 +1,3 @@
+Adicionar tipo de tranferencia = FEITO
+Adicionar valores atualizaveis para Valores recebido, valores enviado e total = FEITO
+Estilizar a aplicação

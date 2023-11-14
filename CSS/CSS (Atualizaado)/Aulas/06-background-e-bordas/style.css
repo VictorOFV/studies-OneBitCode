@@ -1,0 +1,39 @@
+body {
+    background-image: url(./fundo.png);
+    color: #fff;
+}
+
+div {
+    margin: 10px;
+}
+
+h1 {
+    background-color: rgb(136, 136, 136);
+}
+
+.box1 {
+    background-color: rgb(70, 112, 9);
+    width: 600px;
+    height: 200px;
+    border: 5px solid rgb(81, 81, 81);
+    text-align: center;
+}
+
+.box2 {
+    background-image: linear-gradient(to left, rgb(7, 7, 77), rgb(0, 0, 181));
+    width: 600px;
+    height: 200px;
+    border: 5px solid rgb(81, 81, 81);
+    border-radius: 25px;
+    text-align: center;
+}
+
+.box3 {
+    background-color: rgb(101, 0, 0);
+    width: 600px;
+    height: 200px;
+    border: 5px ridge rgb(81, 81, 81);
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    text-align: center;
+}

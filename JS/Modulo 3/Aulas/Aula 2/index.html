@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <section>
+        <h1>Eventos no HTML</h1>
+        <div class="spacing">
+            <label for="onMouseEnter">Entrada do Mouse</label>
+            <input type="text" id="onMouseEnter" onmouseenter="onMouseEnter()">
+        </div>
+        <div class="spacing">
+            <label for="onChange">Mudança de Valor</label>
+            <input type="text" id="onChange" onchange="onChange()">
+        </div>
+        <div class="spacing">   
+            <label for="onFocus">Entrada de Foco</label>
+            <input type="text" id="onFocus" onfocus="onFocus()">
+        </div>
+        <div class="spacing">
+            <label for="onBlur">Saida De Foco</label>
+            <input type="text" id="onBlur" onblur="onBlur()">
+        </div>
+        <div class="spacing">
+            <button onclick="onClick()">Clique Aqui</button>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+
+</html>

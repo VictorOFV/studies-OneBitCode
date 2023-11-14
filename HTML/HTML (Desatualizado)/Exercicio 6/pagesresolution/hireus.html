@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!---Aqui eu refiz tudo novamente utilizando as tagas semanticas-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../resolution.html"><img src="../imagesresolution/logoSpaceX.png" alt="logoSpaceX"></a>
+            <a href="spaceships.html">| The Spaceships</a>
+            <a href="hireus.html">| Hire Us</a>
+        </nav>
+        <hr>
+    </header>
+    <section>
+        <h1>Hire Us Now</h1>
+        <p>Leave Message to request one of our services and we will get back to you a soon as possible.</p>
+        <br><br>
+    <form action="">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">- Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <br><br>
+        <div>
+            <label for="spaceship">Spaceship:</label>
+            <select name="spaceship" id="spaceship">
+                <option value="falcon_9">Falcon 9</option>
+                <option value="facon_heavy">Falcon Heavy</option>
+            </select>
+            <label for="service">| Type of Service:</label>
+            <input type="search" name="service" id="service" list="servicelist">
+            <datalist id="servicelist">
+                <option value="Lorem ipsum dolor sit amet, consectetur adipiscing elit"></option>
+                <option value="Lorem ipsum dolor sit amet, consectetur adipiscing elit"></option>
+                <option value="Lorem ipsum dolor sit amet, consectetur adipiscing elit"></option>
+                <option value="Lorem ipsum dolor sit amet, consectetur adipiscing elit"></option>
+            </datalist>
+        </div>
+        <br><br>
+        <div>
+            <input type="submit" value="Send Message">
+        </div>
+    </form>
+    </section>
+</body>
+</html>
