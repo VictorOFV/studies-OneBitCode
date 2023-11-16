@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: gray;
+    height: 100vh;
+    display: flex;
+    column-gap: 5rem;
+    justify-content: center;    
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.subcontainer {
+    width: 14rem;
+    height: 14rem;
+    border: 4px solid #000000;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subcontainer p {
+    font-size: 2rem;
+}

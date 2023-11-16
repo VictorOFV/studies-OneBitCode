@@ -1,0 +1,35 @@
+.images {
+    width: 46rem;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.texts {
+    font-size: 1.25rem;
+}
+
+@media (max-width: 750px) {
+    .images {
+        width: 100%;
+        object-fit: cover;
+        height: auto;
+    }
+}
+
+@media (max-width: 680px) {
+    .texts {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 460px) {
+    .texts {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .texts {
+        font-size: .7rem;
+    }
+}
