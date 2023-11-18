@@ -6,17 +6,17 @@
 
 .container {
     background-color: gray;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     column-gap: 5rem;
     justify-content: center;    
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .subcontainer {
-    width: 14rem;
-    height: 14rem;
+    width: 100%;
+    height: 70px;
     border: 4px solid #000000;
     background-color: #fff;
     display: flex;
@@ -33,7 +33,7 @@
 }
 
 .item2 {
-
+    flex: 1 0 600px
 }
 
 .item3 {
