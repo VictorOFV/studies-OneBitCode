@@ -48,7 +48,7 @@ header nav a:hover, footer a:hover {
 
 .container-main {
     min-height: 100vh;
-    padding-bottom: 1rem;
+    padding: 0 1rem 1rem 1rem;
 }
 
 .card {
@@ -56,9 +56,6 @@ header nav a:hover, footer a:hover {
     color: #292929;
     max-width: 18rem;
     height: 20rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-bottom: 1rem;
     border: 4px solid transparent;
     border-radius: 2%;
@@ -130,13 +127,13 @@ header nav a:hover, footer a:hover {
 }
 
 .container-aside h2 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
 
 }
 
 .container-aside h3 {
-    font-size: 1.35rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
 
 }
@@ -164,7 +161,7 @@ header nav a:hover, footer a:hover {
     }
 
     .container-aside {
-        width: 90%;
+        width: 100%;
         margin-left: 0;
     }
 
@@ -178,12 +175,12 @@ header nav a:hover, footer a:hover {
     }
 
     .container-welcome h1 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 604px) {
     .container-cards {
         grid-template-columns: repeat(1, 18rem);
     }
@@ -204,10 +201,6 @@ header nav a:hover, footer a:hover {
         font-size: 1rem;
     }
 
-    .container-welcome h1 {
-        font-size: 1.5rem;
-    }
-
     footer a {
         display: none;
     }
@@ -222,7 +215,7 @@ header nav a:hover, footer a:hover {
     }
 
     nav a {
-        font-size: 1.25rem;
+        font-size: 1rem;
         margin: 0;
     }
 
@@ -238,12 +231,8 @@ header nav a:hover, footer a:hover {
         width: 16.5rem;
     }
 
-    .aside-cards img {
-        width: 15rem;
-    }
-
     .container-welcome h1 {
-        font-size: 1.125rem;
+        font-size: 1.4rem;
     }
 
     .container-welcome p {
@@ -251,7 +240,7 @@ header nav a:hover, footer a:hover {
     }
 
     .card h2{
-        font-size: 1.3rem;
+        font-size: 1.125rem;
     }
 
     .card p {
@@ -264,5 +253,9 @@ header nav a:hover, footer a:hover {
 
     .aside-cards h3 {
         font-size: .9rem;
+    }
+
+    .aside-cards img {
+        width: 14rem;
     }
 }
