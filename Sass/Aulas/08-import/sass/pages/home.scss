@@ -1,0 +1,19 @@
+.container {
+    p {
+        font-size: 1.5rem;
+        color: $color-secundary;
+    }
+
+    button {
+        background-color: $color-primary;
+        color: #fff;
+        padding: $btn-padding;
+        width: $btn-width;
+        border: 2px solid $color-secundary;
+        cursor: pointer;
+        transition: .3s;
+        &:hover {
+            background-color: $color-secundary;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+$btn-color: #26aef2;
+$btn-padding: .5rem;
+$btn-width: 8rem;
+
+.btn-login, .btn-register {
+    background-color: $btn-color;
+    padding: $btn-padding;
+    width: $btn-width;
+}
+
+.btn-register {
+    color: #fff;
+}

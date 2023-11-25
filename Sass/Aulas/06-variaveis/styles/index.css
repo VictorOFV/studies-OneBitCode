@@ -1,0 +1,11 @@
+.btn-login, .btn-register {
+  background-color: #26aef2;
+  padding: 0.5rem;
+  width: 8rem;
+}
+
+.btn-register {
+  color: #fff;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,15 @@
+@mixin text-container ($color, $font-size, $font-family) {
+    color: $color;
+    font-size: $font-size;
+    font-family: $font-family
+}
+
+.container {
+    h1 {
+        @include text-container(#ff5247, 2rem, Arial)
+    }
+
+    p {
+        @include text-container(#147368, 1.5rem, Serif)
+    }
+}  

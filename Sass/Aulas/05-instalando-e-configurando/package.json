@@ -1,0 +1,12 @@
+{
+  "name": "05-instalando-e-configurando",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-sass": "sass --watch sass/index.scss:styles/index.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

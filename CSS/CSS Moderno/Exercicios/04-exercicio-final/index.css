@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 
-header,
-footer {
+header, footer {
     display: flex;
     height: 7rem;
     padding: 2rem;
@@ -14,13 +13,11 @@ footer {
     align-items: center;
 }
 
-header img,
-footer img {
+header img, footer img {
     height: 3rem;
 }
 
-header a,
-footer a {
+header a, footer a {
     margin-left: 2rem;
     font-size: 1.25rem;
     color: #D4D4D4;
@@ -31,8 +28,7 @@ footer a {
     font-family: "Nunito Sans";
 }
 
-header nav a:hover,
-footer a:hover {
+header nav a:hover, footer a:hover {
     border-color: #D2083D;
 }
 
@@ -41,26 +37,18 @@ footer a:hover {
     margin: 1.5rem 0
 }
 
-.container-welcome h1 {
-    font-family: "Nunito Sans";
-}
-
 .container-welcome p {
     font-size: 1.5rem;
     font-family: "Roboto";
 }
 
+.container-welcome h1 {
+    font-family: "Nunito Sans";
+}
+
 .container-main {
     min-height: 100vh;
     padding: 0 1rem 1rem 1rem;
-}
-
-.container-cards {
-    width: 57rem;
-    display: grid;
-    grid-template-columns: repeat(3, 18rem);
-    gap: 1rem;
-    justify-content: center;
 }
 
 .card {
@@ -76,7 +64,7 @@ footer a:hover {
     text-align: center;
 }
 
-.card img {
+.card img{
     width: 17.5rem;
     height: 10rem;
     object-fit: cover;
@@ -98,6 +86,31 @@ footer a:hover {
     border-color: #D2083D;
 }
 
+.container-cards {
+    width: 57rem;
+    display: grid;
+    grid-template-columns: repeat(3, 18rem);
+    gap: 1rem;
+    justify-content: center;
+
+}
+
+.container-content {
+    display: flex;
+    justify-content: center;
+}
+
+.aside-cards {
+    text-align: center;
+    cursor: pointer;
+}
+
+.aside-cards img {
+    width: 15rem;
+    border-radius: 3%;
+    object-fit: cover;
+}
+
 .container-aside {
     color: #fff;
     background-color: #292929;
@@ -113,19 +126,14 @@ footer a:hover {
     font-family: "Nunito Sans";
 }
 
-.aside-cards {
-    text-align: center;
-    cursor: pointer;
-}
-
-.aside-cards img {
-    width: 15rem;
-    border-radius: 3%;
-    object-fit: cover;
-}
-
 .container-aside h2 {
     font-size: 1.3rem;
+    text-transform: uppercase;
+
+}
+
+.container-aside h3 {
+    font-size: 1.2rem;
     text-transform: uppercase;
 
 }
@@ -135,11 +143,6 @@ footer a:hover {
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-}
-
-.aside-cards h3 {
-    font-size: 1.2rem;
-    text-transform: uppercase;
 }
 
 @media (max-width: 1240px) {
@@ -157,14 +160,6 @@ footer a:hover {
         flex-wrap: wrap;
     }
 
-    .container-welcome h1 {
-        font-size: 1.8rem;
-    }
-
-    .container-welcome p {
-        font-size: 1.2rem;
-    }
-
     .container-aside {
         width: 100%;
         margin-left: 0;
@@ -175,15 +170,43 @@ footer a:hover {
         height: 10rem;
     }
 
+    .container-welcome p {
+        font-size: 1.2rem;
+    }
+
+    .container-welcome h1 {
+        font-size: 1.8rem;
+    }
+
 }
 
 @media (max-width: 604px) {
+    .container-cards {
+        grid-template-columns: repeat(1, 18rem);
+    }
+
+    .card {
+        max-width: 50rem;
+    }
+
     header {
         justify-content: center;
     }
 
     header img {
         display: none;
+    }
+
+    .container-welcome p {
+        font-size: 1rem;
+    }
+
+    footer a {
+        display: none;
+    }
+
+    footer {
+       justify-content: center;
     }
 
     nav {
@@ -196,36 +219,9 @@ footer a:hover {
         margin: 0;
     }
 
-    .container-welcome p {
-        font-size: 1rem;
-    }
-
-    .container-cards {
-        grid-template-columns: repeat(1, 18rem);
-    }
-
-    .card {
-        max-width: 50rem;
-    }
-
-    footer {
-        justify-content: center;
-    }
-
-    footer a {
-        display: none;
-    }
 }
 
 @media (max-width: 360px) {
-
-    .container-welcome h1 {
-        font-size: 1.4rem;
-    }
-
-    .container-welcome p {
-        font-size: .9rem;
-    }
 
     .container-cards {
         grid-template-columns: repeat(1, 17rem);
@@ -235,7 +231,15 @@ footer a:hover {
         width: 16.5rem;
     }
 
-    .card h2 {
+    .container-welcome h1 {
+        font-size: 1.4rem;
+    }
+
+    .container-welcome p {
+        font-size: .9rem;
+    }
+
+    .card h2{
         font-size: 1.125rem;
     }
 
@@ -247,12 +251,11 @@ footer a:hover {
         font-size: 1rem;
     }
 
-    .aside-cards img {
-        width: 14rem;
-    }
-
     .aside-cards h3 {
         font-size: .9rem;
     }
 
+    .aside-cards img {
+        width: 14rem;
+    }
 }
