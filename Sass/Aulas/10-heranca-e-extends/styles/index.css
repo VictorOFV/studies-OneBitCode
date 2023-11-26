@@ -1,0 +1,33 @@
+.btn, .btn-3 {
+  width: 8rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  display: block;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn.btn-1, .btn-1.btn-3 {
+  background-color: #ff1485;
+  color: #fff;
+}
+.btn.btn-1:hover, .btn-1.btn-3:hover {
+  background-color: rgb(87, 145, 145);
+}
+.btn.btn-2, .btn-2.btn-3 {
+  background-color: #648921;
+  color: #fff;
+}
+.btn.btn-2:hover, .btn-2.btn-3:hover {
+  background-color: rgb(131, 29, 29);
+}
+
+.btn-3 {
+  background-color: #894745;
+  color: #fff;
+}
+.btn-3:hover {
+  background-color: green;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,6 @@
+.container-login {
+    margin: 1rem;
+    p {
+        @include text-styles-container(#388896, 2rem, Serif);
+    }
+}

@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2.4rem;
+  margin: 1rem;
+}
+
+.btn {
+  width: 7rem;
+  padding: 0.5rem 0;
+  display: block;
+  margin: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #1d0750;
+  color: #fff;
+}
+.btn:hover {
+  background-color: #ff3845;
+}
+
+.container-home {
+  width: 80rem;
+  margin: 1rem;
+}
+.container-home p {
+  color: #ff3845;
+  font-size: 1.5rem;
+  font-family: Arial;
+}
+
+.container-login {
+  margin: 1rem;
+}
+.container-login p {
+  color: #388896;
+  font-size: 2rem;
+  font-family: Serif;
+}
+
+.container-register {
+  width: 28rem;
+  margin: 1rem;
+}
+.container-register p {
+  color: #1d0750;
+  font-size: 1.2rem;
+  font-family: Arial;
+}
+
+/*# sourceMappingURL=index.css.map */

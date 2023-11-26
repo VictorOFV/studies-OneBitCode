@@ -1,0 +1,34 @@
+.btn {
+    width: 8rem;
+    padding: .5rem;
+    border-radius: 10px;
+    display: block;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: .3s;
+
+    &.btn-1 {
+        background-color: #ff1485;
+        color: #fff;
+        &:hover {
+            background-color: rgb(87, 145, 145);
+        }
+    }
+
+    &.btn-2 {  // Recebendo a herança direto da classe btn
+        background-color: #648921;
+        color: #fff;
+        &:hover {
+            background-color: rgb(131, 29, 29)
+        }
+    }
+}
+
+.btn-3 {
+    @extend .btn; // Utilizando Extend, ele erda os estilos da classe desejada
+    background-color: #894745;
+    color: #fff;
+    &:hover {
+        background-color: green;
+    }
+}

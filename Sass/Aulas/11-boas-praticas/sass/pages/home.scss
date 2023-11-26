@@ -1,0 +1,7 @@
+.container-home {
+    width: 80rem;
+    margin: 1rem;
+    p {
+        @include text-styles-container($color-primary, 1.5rem, Arial);
+    }
+}

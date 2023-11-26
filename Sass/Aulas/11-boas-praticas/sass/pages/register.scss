@@ -1,0 +1,7 @@
+.container-register {
+    width: 28rem;
+    margin: 1rem;
+    p {
+        @include text-styles-container($color-secondary, 1.2rem, Arial);
+    }
+}

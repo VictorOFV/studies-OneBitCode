@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2.4rem;
+    margin: 1rem;
+}
+
+.btn {
+    width: 7rem;
+    padding: .5rem 0;
+    display: block;
+    margin: 1rem;
+    cursor: pointer;
+    transition: .3s;
+    background-color: $color-secondary;
+    color: #fff;
+    &:hover {
+        background-color: $color-primary;
+    }
+}
