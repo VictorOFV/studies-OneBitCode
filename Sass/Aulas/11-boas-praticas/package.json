@@ -1,0 +1,11 @@
+{
+  "name": "11-boas-praticas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-compressed": "sass sass/index.scss:styles/index.css --style compressed"
+  },
+  "author": "",
+  "license": "ISC"
+}
