@@ -1,14 +1,14 @@
 {
   "dependencies": {
-    "bootstrap": "^5.3.2"
+    "bootstrap": "^5.3.2",
+    "sass": "^1.69.5"
   },
   "name": "01-rumo-a-marte",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "build:css": "sass sass/index.scss:styles/index.css",
-    "watch:css": "sass --watch sass/index.scss:styles/index.css"
+    "build:css": "sass sass/pages/index.scss:public/styles/index.css",
+    "watch:css": "sass --watch sass/pages/index.scss:public/styles/index.css"
   },
   "author": "",
   "license": "ISC",
