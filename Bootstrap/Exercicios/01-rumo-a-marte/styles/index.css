@@ -12,9 +12,6 @@ body {
 .container img {
   width: 17rem;
 }
-.container form {
-  gap: 0.7rem;
-}
 .container .reset-style {
   margin: 0;
   padding: 0;
@@ -22,7 +19,7 @@ body {
 
 @media (max-width: 340px) {
   .container label {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 }
 
