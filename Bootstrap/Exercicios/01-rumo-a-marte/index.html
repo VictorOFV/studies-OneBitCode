@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Images/FAVICON-SPACEX.png" type="image/x-icon">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <title>Rumo a Marte</title>
+</head>
+
+<body>
+    <main>
+        <div class="container mt-3">
+            <img class="img-fluid mx-auto d-block mb-5" src="./Images/logoOneBitDark.png" alt="">
+            <form class="row">
+                <p class="reset-style">1 - Qual o seu nome?</p>
+
+                <div class="reset-style">
+                    <div class="col-15 mb-3">
+                        <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
+                        <div class="input-group">
+                            <div class="input-group-text col-sm-4">Nome</div>
+                            <input type="text" class="form-control" id="inlineFormInputGroupUsername"
+                                placeholder="Lucas">
+                        </div>
+                    </div>
+                    <div class="col-15 p-0">
+                        <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
+                        <div class="input-group">
+                            <div class="input-group-text col-sm-4">Sobrenome</div>
+                            <input type="text" class="form-control" id="inlineFormInputGroupUsername"
+                                placeholder="Santos">
+                        </div>
+                    </div>
+                </div>
+
+                <p class="reset-style">2 - Qual o seu gênero?</p>
+
+                <div class="reset-style">
+                    <div class="form-check mt-0">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Homem
+                        </label>
+                    </div>
+                    <div class="form-check mt-0">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Mulher
+                        </label>
+                    </div>
+                    <div class="form-check mt-0">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Prefiro não informar
+                        </label>
+                    </div>
+                </div>
+                <p class="reset-style">3 - Marque os treinamentos que você fez:</p>
+                <div class="reset-style">
+                    <div class="form-check form-switch mt-0">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault">
+                            Treinamento básico de astronauta</label>
+                    </div>
+                    <div class="form-check form-switch mt-0">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault">
+                            Treinamento físico básico</label>
+                    </div>
+                    <div class="form-check form-switch mt-0">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault">
+                            Treinamento avançado de astronauta</label>
+                    </div>
+                    <div class="form-check form-switch mt-0">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault">
+                            Treinamento físico intenso</label>
+                    </div>
+                </div>
+
+                <p class="reset-style">4 - Quais você acha que são suas qualidades?</p>
+                <div class="reset-style d-flex flex-wrap row-gap-1 column-gap-4">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Proativo
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Resistente
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Não vomito fácil
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Não temo marciano
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Já vi todos os star wars
+                        </label>
+                    </div>
+                </div>
+                <div class="col-15 d-grid mt-4 reset-style">
+                    <button type="submit" class="btn btn-outline-danger">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

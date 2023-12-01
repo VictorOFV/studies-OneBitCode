@@ -1,0 +1,32 @@
+body {
+    background-image: url("../Images/backgroundLp.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 30rem;
+    padding: 2rem;
+    color: #fff;
+
+    img {
+        width: 17rem;
+    }
+
+    form {
+        gap: .7rem;
+    }
+
+    .reset-style {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 340px) {
+    .container {
+        label {
+            font-size: 12px;
+        }
+    }
+}
