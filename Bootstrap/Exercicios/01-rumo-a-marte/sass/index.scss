@@ -1,5 +1,5 @@
 body {
-    background-image: url("../../Images/backgroundLp.png");
+    background-image: url("../Images/backgroundLp.png");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -21,6 +21,10 @@ body {
         margin: 0;
         padding: 0;
     }
+
+    .mouse-click {
+        cursor: pointer
+    }
 }
 
-@import "../responsives/mobile.scss";
+@import "./responsives/mobile.scss";
