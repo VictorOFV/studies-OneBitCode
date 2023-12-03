@@ -1,0 +1,8 @@
+.img-carousel {
+    background-color: rgba(84, 84, 84, 0.483);
+    width: 100%;
+}
+
+.img-carousel:hover {
+    background-color: transparent;
+}
