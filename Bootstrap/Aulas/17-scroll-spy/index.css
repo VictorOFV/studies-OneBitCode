@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    height: 100vh ;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-spy {
+    height: 25rem;
+    overflow: auto;
+    font-size: 1.4rem;
+}
+
+.nav-scroll-bar {
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.nav-scroll-bar a {
+    color: #F64147;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #F64147;
+}
+
+.nav-scroll-bar a:hover {
+    color: #fff;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #fff;
+}
