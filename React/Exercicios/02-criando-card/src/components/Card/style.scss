@@ -1,0 +1,36 @@
+.card {
+    width: 45rem;
+    background-color: #D7E1E7;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 3rem;
+    border-radius: 15px;
+
+    .card_image {
+        width: 11rem;
+        height: 16rem;
+        object-fit: cover;
+    }
+
+    .card_title {
+        margin-bottom: 1.5rem;
+        font-size: 1.75rem;
+    }
+
+    .card_button {
+        background-color: #000;
+        color: #fff;
+        padding: .7rem .8rem;
+        border-radius: 8px;
+        margin-top: 1.5rem;
+        cursor: pointer;
+        transition: .3s;
+        font-size: 1rem;
+
+        &:hover {
+            background-color: #fff;
+            color: #000;
+        }
+    }
+}
