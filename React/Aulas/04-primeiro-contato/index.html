@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <title>Primeiro Contato Com React</title>
+</head>
+
+<style>
+    #app {
+        background-color: #bbb;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        font-family: sans-serif;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+</style>
+
+<body id="app">
+
+    <script>
+        const { createElement } = React
+
+        const app = document.getElementById("app")
+        const root = ReactDOM.createRoot(app)
+
+        const h1 = createElement("h1", { class: "title"}, "Ola mundo!")
+        const p = createElement("p", {}, "Esse é o meu primeiro contato com react!")
+        const main = createElement("main", {}, h1, p)
+        
+        root.render(main)
+    </script>
+</body>
+</html>
