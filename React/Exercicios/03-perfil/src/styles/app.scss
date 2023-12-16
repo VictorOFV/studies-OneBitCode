@@ -1,0 +1,33 @@
+.profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+@media (max-width: 470px) {
+    .profile-container {
+        .profile {
+            width: 17rem;
+
+            .profile_info {
+                h2 {
+                    font-size: 1.5rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                }
+            }
+
+            .profile_buttons {
+                .button {
+                    width: 10rem;
+                    padding: .5rem  0;
+                }
+            }
+        }
+    }
+}

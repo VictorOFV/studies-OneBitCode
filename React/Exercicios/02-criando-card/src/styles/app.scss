@@ -1,0 +1,19 @@
+.app {
+    .card-container {
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .moreButton {
+        .button {
+            background-color: #d42e2e;
+            border-color: #d42e2e;
+
+            &:hover {
+                background-color: #fff;
+            }
+        }
+    }
+}
