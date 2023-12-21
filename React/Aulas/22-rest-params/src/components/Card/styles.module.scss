@@ -1,0 +1,36 @@
+.card {
+    width: 25rem;
+    height: 28rem;
+    background-color: aqua;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+    img {
+        width: 10rem;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .buttonCardMore {
+        width: 100%;
+        font-size: 1rem;
+        color: #000;
+        border-color: #000;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: #000;
+            color: #fff;
+        }
+    }
+
+    .buttonFollow {
+        padding: 3px 7px;
+        margin-left: 10px;
+    }
+}

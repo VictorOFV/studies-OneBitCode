@@ -3,7 +3,7 @@ import avatar1 from "./assets/avatar.png"
 import avatar2 from "./assets/avatar2.gif"
 import avatar3 from "./assets/avatar3.jpg"
 import "./styles/app.scss"
-import Button from "./components/Button"
+
 
 function App() {
   const profiles = [

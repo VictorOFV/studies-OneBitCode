@@ -1,5 +1,5 @@
 import Button from "../Button";
-import "./style.scss"
+import style from "./style.scss"
 
 function Profile({ avatar, name, bio, telephone, email }) {
     return (
