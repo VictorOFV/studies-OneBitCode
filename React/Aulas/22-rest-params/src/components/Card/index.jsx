@@ -12,14 +12,11 @@ function Card({ img, title, description }) {
     }
 
     return (
-
         <div className={styles.card}>
             <img src={img} alt={`${title} - Icon`} />
             <CardTitle data-name="name" id="name">
                 {title}
-                <Button
-                 onClick={follow}
-                 className={styles.buttonFollow} id="followBtn">{followText}</Button>
+                <Button onClick={follow} className={styles.buttonFollow} id="followBtn">{followText}</Button>
             </CardTitle>
             <CardDescription id="description" data-description="Descrição...">
                 {description}
