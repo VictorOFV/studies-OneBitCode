@@ -1,0 +1,21 @@
+.input {
+    label {
+        font-size: 1.3rem;
+    }
+
+    input {
+        width: 15rem;
+        font-size: 1rem;
+        background-color: #1A1A1A;
+        color: #fff;
+        border: 2px solid transparent;
+        padding: .6rem;
+        border-radius: 8px;
+        transition: .3s;
+        outline: none;
+
+        &:hover {
+            border-color: #fff;
+        }
+    }
+}

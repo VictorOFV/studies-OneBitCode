@@ -1,0 +1,16 @@
+.formGame {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+
+    label {
+        display: block;
+    }
+    
+    button {
+        margin-top: 1.2rem;
+    }
+}
