@@ -1,10 +1,10 @@
 import styles from "./styles.module.scss"
 
-function Input({ id, label, type, value, func}) {
+function Input({ id, label, type, value, func }) {
     return (
         <div className={styles.input}>
             <label htmlFor={id}>{label}</label>
-            <input value={value} type={type} id={id} onChange={func}/>
+            <input value={value} type={type} id={id} name={id} onChange={func} />
         </div>
     )
 }

@@ -1,0 +1,28 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    height: 35rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1A1A1A;
+    border-radius: 1rem;
+    padding: 2rem 1rem;
+    cursor: pointer;
+
+    h2 {
+        text-align: center;
+    }
+
+    img {
+        width: 18rem;
+        height: 22rem;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 10px;
+    }
+
+    button {
+        background-color: #242424;
+    }
+}

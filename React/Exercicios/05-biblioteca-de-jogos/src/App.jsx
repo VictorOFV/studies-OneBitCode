@@ -1,27 +1,28 @@
-import { useState } from "react"
 import FormGame from "./components/FormGameAdd"
 import styles from "./styles/app.module.scss"
-import Button from "./components/Button"
+import useGameList from "./hooks/useGameList"
+import Game from "./components/Game"
 
 function App() {
-  const [listGames, setListGame] = useState([])
-
-  const removeGame = (ev) => {
-    setListGame((list) => list.filter((game) => game.id !== +ev.target.parentElement.id))
-  }
+  const { listGames, addGameList, removeGameList } = useGameList()
 
   return (
     <div className={styles.app}>
       <h1 className={styles.title}>Biblioteca de Jogos</h1>
-      <FormGame setListGame={setListGame}/>
+      <FormGame addGameList={addGameList} />
       <div className={styles.listGames}>
-        {listGames.map(game => (
-          <div key={game.id} id={game.id} className={styles.game}>
-            <h2>{game.name}</h2>
-            <img src={game.image} alt={game.name} />
-            <Button text={"Remover"} event={removeGame}></Button>
-          </div>
-        ))}
+        {listGames.length === 0
+          ? <h2>Parece que você ainda não tem jogos na biblioteca...</h2>
+          : (
+            listGames.map(({ id, name, image }) => (
+              <Game
+                key={id}
+                name={name}
+                image={image}
+                onRemove={() => removeGameList(id)}
+              />
+            ))
+          )}
       </div>
     </div>
   )
