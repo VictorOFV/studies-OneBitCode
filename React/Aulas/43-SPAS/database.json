@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "nome": "Teclado Mecânico",
+        "descricao": "Teclado mecânico para gamers",
+        "valor": 150.99,
+        "quantidade": 5
+    },
+    {
+        "id": 2,
+        "nome": "Mouse Sem Fio",
+        "descricao": "Mouse sem fio com sensor óptico",
+        "valor": 49.99,
+        "quantidade": 8
+    },
+    {
+        "id": 3,
+        "nome": "Monitor Full HD",
+        "descricao": "Monitor LED de 24 polegadas, resolução Full HD",
+        "valor": 249.99,
+        "quantidade": 3
+    },
+    {
+        "id": 4,
+        "nome": "HD Externo 1TB",
+        "descricao": "HD externo portátil de 1TB",
+        "valor": 79.99,
+        "quantidade": 10
+    },
+    {
+        "id": 5,
+        "nome": "Headset Gamer",
+        "descricao": "Fone de ouvido gamer com microfone retrátil",
+        "valor": 89.99,
+        "quantidade": 6
+    },
+    {
+        "id": 6,
+        "nome": "Webcam HD",
+        "descricao": "Webcam com resolução HD para videoconferências",
+        "valor": 39.99,
+        "quantidade": 7
+    },
+    {
+        "id": 7,
+        "nome": "Roteador Wi-Fi AC1200",
+        "descricao": "Roteador dual-band com velocidade de até 1200 Mbps",
+        "valor": 79.99,
+        "quantidade": 4
+    },
+    {
+        "id": 8,
+        "nome": "Impressora Multifuncional",
+        "descricao": "Impressora a jato de tinta com scanner e copiadora",
+        "valor": 129.99,
+        "quantidade": 2
+    },
+    {
+        "id": 9,
+        "nome": "Cadeira Gamer",
+        "descricao": "Cadeira ergonômica para gamers",
+        "valor": 199.99,
+        "quantidade": 3
+    },
+    {
+        "id": 10,
+        "nome": "SSD 500GB",
+        "descricao": "Unidade de estado sólido de 500GB para maior velocidade de armazenamento",
+        "valor": 109.99,
+        "quantidade": 5
+    },
+    {
+        "id": 11,
+        "nome": "Teclado Sem Fio",
+        "descricao": "Teclado sem fio compacto",
+        "valor": 59.99,
+        "quantidade": 8
+    },
+    {
+        "id": 12,
+        "nome": "Mouse Gamer RGB",
+        "descricao": "Mouse gamer com iluminação RGB personalizável",
+        "valor": 69.99,
+        "quantidade": 6
+    },
+    {
+        "id": 13,
+        "nome": "Monitor Curvo 27'",
+        "descricao": "Monitor LED curvo de 27 polegadas",
+        "valor": 349.99,
+        "quantidade": 4
+    },
+    {
+        "id": 14,
+        "nome": "HD Externo 2TB",
+        "descricao": "HD externo portátil de 2TB",
+        "valor": 129.99,
+        "quantidade": 12
+    },
+    {
+        "id": 15,
+        "nome": "Microfone USB",
+        "descricao": "Microfone de condensador USB para gravações e transmissões",
+        "valor": 29.99,
+        "quantidade": 10
+    },
+    {
+        "id": 16,
+        "nome": "Placa de Vídeo 4GB",
+        "descricao": "Placa de vídeo dedicada com 4GB de memória GDDR5",
+        "valor": 189.99,
+        "quantidade": 5
+    },
+    {
+        "id": 17,
+        "nome": "Switch Gigabit",
+        "descricao": "Switch de rede Gigabit com 8 portas",
+        "valor": 49.99,
+        "quantidade": 7
+    },
+    {
+        "id": 18,
+        "nome": "Scanner de Documentos",
+        "descricao": "Scanner de documentos de alta resolução",
+        "valor": 89.99,
+        "quantidade": 3
+    },
+    {
+        "id": 19,
+        "nome": "Cadeira Ergonômica",
+        "descricao": "Cadeira de escritório ergonômica com apoio lombar",
+        "valor": 149.99,
+        "quantidade": 6
+    },
+    {
+        "id": 20,
+        "nome": "SSD NVMe 1TB",
+        "descricao": "Unidade de estado sólido NVMe de 1TB para desempenho rápido",
+        "valor": 179.99,
+        "quantidade": 4
+    }
+]
